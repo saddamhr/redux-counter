@@ -42,7 +42,7 @@ class Counter extends Component {
 const mapStateToProps = state => {
     return {
         ctr: state.counter
-    };
-}
+    }
+} 
 
-export default connect()(Counter);
+export default connect(mapStateToProps)(Counter);
